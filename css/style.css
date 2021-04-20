@@ -1,11 +1,13 @@
 @import 'flexbox.css';
 header {
-  background-color: black;
+
   height: rgb(255, 0, 255);px;
-  clip-path: polygon(0 0 , 100% 0, 100% 100% ,70% 93%,72% 97% ,0 100%, 1% 47%, 2% 49%)
+
 }
+
 body {
   background-color: white;
+  background-image: url("https://www.drodd.com/images14/black7.jpg");
 }
 /* to change the default  */
 *{
@@ -18,6 +20,11 @@ body {
   max-width: :1100px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.light{
+  font-weight: lighter;
+
+  font-size: 15px;
 }
 header nav .left a{
   color: white;
@@ -38,6 +45,7 @@ h3{
 h1{
   color:LightGreen;
   margin-bottom: 10px;
+
 }
 p{
   margin-bottom: 10px;
@@ -72,12 +80,16 @@ footer {
   height:40px;
   background-color: black;
   font:white;
-
+  position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ color: white;
+ text-align: center;
+ margin-top: 20px;
 
 }
-.icons{
 
-}
 .c{
   color:white;
 }
@@ -87,7 +99,7 @@ footer {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 7px;
+  margin: 7px 7px;
 }
 
 .fa:hover {
@@ -105,4 +117,97 @@ footer {
 .fa-github {
   background: #007bb5;
   color: white;
+}
+/* .projects .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+} */
+
+.projects .carousel .card:hover{
+    background: crimson;
+}
+/* .projects .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+} */
+.projects .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.projects .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.projects .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+.biography{
+  margin-top: 2rem;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+
+}
+.card{
+  margin-bottom: 40px;
+}
+.biography1{
+  margin-top: 1rem;
+  margin-left: 6px;
+  margin-right: 15px;
+  font-size: 20px;
+
+}
+ul{
+  margin-top: .3rem;
+  margin-left: 2rem;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.b1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:white;
+
+
+}
+
+.e1{
+  margin-top: 2rem;
+  margin-left: 6px;
+  margin-right: 15px;
+  color:LightGreen;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 600;
+
+}
+.text{
+  font-size: 20px;
+  font-family: sans-serif;
+  color:white;
+}
+.text1{
+  font-size: 15px;
+  font-family: sans-serif;
+  color:white;
+  margin-left: 20px;
 }
