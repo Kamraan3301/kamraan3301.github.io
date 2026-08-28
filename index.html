@@ -1,63 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Kamran — Cybersecurity Analyst, AI and Machine Learning Engineer.">
+  <title>Kamran — Cybersecurity + AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header >
-    <div class="container">
-      <nav class="flex items-center justify">
-        <div class="left flex items-center">
-          <div>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-          </div>
-        </div>
-        <div class= "right">
-          <button class="btn btn-primary" type="button" name="button">contact</button>
-        </div>
-      </nav>
-      <div class="home flex items-center justify">
-        <div class="left fl1 flex justify-center">
-          <img src="./kamran.png" alt="kamran dp">
+<div class="grain"></div>
+<header><a class="brand" href="#home">KAM<span>.</span></a><nav><a href="#home">Home</a><a href="#world">Explore</a><a href="mailto:hello@example.com">Contact</a></nav></header>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-code">SECURE.SYS / PORTFOLIO 2026</div>
+    <div class="hero-copy"><p class="kicker"><span></span> Cybersecurity Analyst · AI/ML Engineer</p><h1>KAMRAN</h1><h2>Securing systems.<br>Building <em>intelligence.</em></h2><p class="hero-intro">I connect defensive security, cloud infrastructure, and machine learning to build resilient, intelligent technology.</p><div class="hero-actions"><a class="primary" href="#world">Enter my world <span>↓</span></a><a class="email" href="mailto:hello@example.com">hello@example.com ↗</a></div></div>
+    <div class="hero-orbit"><i></i><i></i><i></i><div></div></div><div class="scroll-cue">Scroll to explore <i></i></div>
+  </section>
 
-        </div>
-        <div class="right fl1">
-          <h3>Hi I am </h3><h1>KAMRAN HOSAIN</h1>
-          <p>I am a <span class="f1">Machine Learning Engineer<span> </p>
-          <span class="f2">I will help you to analyze your data and prepare them
-            for you in such a way that you can use them in various ways, not only that i will also help you to publish your work in websites </span>
-          <div class="button2">
-          <button class="btn btn-primary" type="button" name="button">Download cv</button>
-          </div>
-        </div>
-      </div>
+  <section class="world" id="world">
+    <div id="scene" aria-label="Interactive 3D portfolio world with project and experience houses"></div><div class="scene-shade"></div>
+    <aside class="guide" id="guide"><p>02 / INTERACTIVE PORTFOLIO</p><h2>Choose a<br><em>destination.</em></h2><div class="legend"><button data-open="projects"><b class="red"></b><span><strong>Projects</strong>Red door</span></button><button data-open="research"><b class="green"></b><span><strong>Research</strong>Green window</span></button><button data-open="experience"><b class="blue"></b><span><strong>Experience</strong>Second house</span></button><button data-open="skills"><b class="moon-dot"></b><span><strong>Skills</strong>The moon</span></button></div><small>Drag to look · scroll to zoom · click an entrance</small></aside>
+    <div class="loading" id="loading">Constructing Kamran's world…</div>
 
-    </div>
-  </header>
+    <section class="panel" id="projects" aria-hidden="true"><button class="close">Back to world ×</button><div class="panel-title"><p>RED DOOR / PROJECT ARCHIVE</p><h2>Selected<br><em>projects.</em></h2></div><div class="cards">
+      <article><b>01</b><span>GENERATIVE AI · ELECTRONICS</span><h3>EDA with LLM</h3><p>Electric circuit design powered by large language models, translating natural-language requirements into intelligent design decisions.</p></article>
+      <article><b>02</b><span>COMPUTER VISION · CNN</span><h3>Tile Defect Recognition</h3><p>A convolutional neural network for detecting and classifying manufacturing surface defects.</p></article>
+      <article><b>03</b><span>ML · FORECASTING</span><h3>Crypto Price Prediction</h3><p>A predictive system that studies historical cryptocurrency signals and market patterns.</p></article>
+    </div></section>
 
-  </body>
-  <footer>
+    <section class="panel" id="research" aria-hidden="true"><button class="close">Back to world ×</button><div class="panel-title"><p>GREEN WINDOW / RESEARCH</p><h2>Published<br><em>research.</em></h2></div><a class="paper" href="https://ieeexplore.ieee.org/document/9392688/" target="_blank" rel="noreferrer"><div class="paper-mark">IEEE</div><div><span>IEEE XPLORE · DOCUMENT 9392688</span><h3>Research Publication</h3><p>Explore Kamran's peer-reviewed research on IEEE Xplore.</p><strong>Read the publication ↗</strong></div></a></section>
 
-    <div class="icons flex items-center justify-center ">
-    <span class="c">Contact:</span>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-github"></a>
-    </div>
+    <section class="panel" id="experience" aria-hidden="true"><button class="close">Back to world ×</button><div class="panel-title"><p>SECOND HOUSE / CAREER</p><h2>Professional<br><em>experience.</em></h2></div><div class="timeline"><article><time>2021 — 2023</time><div><span>TRAIDEAS</span><h3>Software Engineer</h3><p>Built and delivered software solutions across a fast-moving engineering environment.</p></div></article><article><time>2019 — 2020</time><div><span>QUANTANITE</span><h3>Analyst</h3><p>Analyzed operational data and produced insight to support informed business decisions.</p></div></article></div></section>
 
-
-
-  </footer>
-
-
-  </html>
+    <section class="panel" id="skills" aria-hidden="true"><button class="close">Back to world ×</button><div class="panel-title"><p>THE MOON / CAPABILITIES</p><h2>Skills &<br><em>certification.</em></h2></div><div class="skill-grid"><div><span>01 / SECURITY</span><h3>Cybersecurity</h3><p>Threat analysis · Vulnerability assessment · Incident response · SIEM · Network security · Risk analysis</p></div><div><span>02 / INTELLIGENCE</span><h3>AI & Machine Learning</h3><p>Python · LLM systems · CNN · Predictive modeling · Computer vision · Data analysis</p></div><div><span>03 / CLOUD</span><h3>AWS Certified</h3><p>Cloud architecture · IAM · EC2 · S3 · Cloud security · Monitoring</p></div><div><span>04 / ENGINEERING</span><h3>Software Development</h3><p>API design · Git · SQL · Automation · Testing · Secure development</p></div></div></section>
+  </section>
+</main><script src="script.js"></script>
+</body></html>
